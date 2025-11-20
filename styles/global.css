@@ -1,3 +1,24 @@
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+
+  --font-family: "Merriweather Sans", sans-serif;
+
+  --h1: 700 24px var(--font-family);
+  --h2: 700 20px var(--font-family);
+  --h3: 700 18px var(--font-family);
+  --h4: 700 10px var(--font-family);
+
+  --font-16: 400 16px var(--font-family);
+  --font-16-bold: 700 16px var(--font-family);
+  --font-14: 400 14px var(--font-family);
+  --font-14-bold: 700 14px var(--font-family);
+  --font-12: 400 12px var(--font-family);
+  --font-12-light: 300 12px var(--font-family);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
