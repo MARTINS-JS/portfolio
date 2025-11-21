@@ -13,4 +13,81 @@ main {
       justify-content: space-between;
     }
   }
+
+  .projects {
+    .cards {
+      display: flex;
+      gap: 30px;
+
+      .card {
+        display: grid;
+        gap: 20px;
+
+        .title {
+          align-items: center;
+          display: flex;
+          gap: 16px;
+
+          img {
+            background-color: var(--text-color);
+            border-radius: 4px;
+            padding: 4px;
+            height: 30px;
+            width: 30px;
+          }
+        }
+
+        .description {
+          font: var(--font-14);
+        }
+
+        .information {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+
+          .status {
+            display: flex;
+            gap: 16px;
+
+            div {
+              align-items: center;
+              display: flex;
+              gap: 8px;
+
+              img {
+                background-color: var(--bg-techs);
+                border-radius: 4px;
+                padding: 4px;
+                height: 25px;
+                width: 25px;
+              }
+
+              span {
+                font: var(--font-14);
+              }
+            }
+          }
+
+          .tech {
+            align-items: center;
+            display: flex;
+            gap: 8px;
+
+            span {
+              font: var(--font-14);
+            }
+
+            span:first-child {
+              background-color: #E7DE79;
+              border: 2px solid var(--text-color);
+              border-radius: 50%;
+              height: 16px;
+              width: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
