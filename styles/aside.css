@@ -1,9 +1,20 @@
+aside {
+  div {
+    display: grid;
+    gap: 20px;
+
+    h2 {
+      font: var(--h2);
+    }
+  }
+}
+
 .profile {
   align-items: center;
   display: flex;
   flex-direction: column;
-  text-align: center;
   gap: 32px;
+  text-align: center;
 
   img {
     border: 2px solid var(--text-color);
@@ -45,12 +56,31 @@
     text-align: center;
 
     li {
-      border-radius: 30px;
       background-color: var(--bg-techs);
+      border-radius: 30px;
       color: var(--body-bg-color);
       font: var(--h4);
-      text-transform: uppercase;
       padding: 6px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.experiences {
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+
+    li {
+      font: var(--font-14-bold);
+      span {
+        display: block;
+        font: var(--font-12-light);
+      }
+
+      span:last-child {
+        font: var(--font-12);
+      }
     }
   }
 }
