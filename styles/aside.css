@@ -1,4 +1,6 @@
 aside {
+  margin-bottom: 20px;
+
   div {
     display: grid;
     gap: 20px;
@@ -67,6 +69,25 @@ aside {
 }
 
 .experiences {
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+
+    li {
+      font: var(--font-14-bold);
+      span {
+        display: block;
+        font: var(--font-12-light);
+      }
+
+      span:last-child {
+        font: var(--font-12);
+      }
+    }
+  }
+}
+
+.training {
   ul {
     list-style: disc;
     margin-left: 20px;
