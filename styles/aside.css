@@ -1,0 +1,18 @@
+.profile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+
+  img {
+    border: 2px solid #00FF00;
+    border-radius: 50%;
+    height: 128px;
+    width: 128px;
+  }
+
+  div {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.grid {
+  display: grid;
+}
+
+.grid-cols-flow {
+  grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+  grid-template-columns: 350px 950fr;
+}
+
+.gap-10{
+  gap: 10px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-60 {
+  gap: 60px;
+}

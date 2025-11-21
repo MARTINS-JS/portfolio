@@ -24,3 +24,22 @@
   margin: 0;
   padding: 0;
 }
+
+.container {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding: 40px 40px 0px;
+}
+
+.box {
+  background-color: var(--bg-cards);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--body-bg-color);
+  font: var(--font-16);
+}
