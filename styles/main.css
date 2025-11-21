@@ -11,6 +11,10 @@ main {
       align-items: center;
       display: flex;
       justify-content: space-between;
+
+      a:hover {
+        color: var(--bg-techs);
+      }
     }
   }
 
@@ -20,6 +24,7 @@ main {
       gap: 30px;
 
       .card {
+        cursor: pointer;
         display: grid;
         gap: 20px;
 
@@ -34,6 +39,11 @@ main {
             padding: 4px;
             height: 30px;
             width: 30px;
+          }
+
+          h4 {
+            color: var(--bg-techs);
+            font: var(--font-16-bold);
           }
         }
 
@@ -84,6 +94,65 @@ main {
               border-radius: 50%;
               height: 16px;
               width: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .posts {
+    .cards {
+      .card {
+        align-items: center;
+        cursor: pointer;
+        display: flex;
+        gap: 20px;
+        padding: 30px;
+
+        .profile {
+          img {
+            border: 2px solid var(--text-color);
+            border-radius: 50%;
+            height: 128px;
+            width: 128px;
+          }
+        }
+
+        .content {
+          display: grid;
+          gap: 28px;
+
+          .title {
+            display: grid;
+            gap: 12px;
+            
+            h3 {
+              font: var(--h3);
+            }
+
+            span {
+              color: var(--bg-techs);
+              font: var(--font-14);
+            }
+          }
+
+          .description {
+            display: grid;
+            gap: 12px;
+
+            p {
+              font: var(--font-16);
+            }
+
+            .hashtags {
+              display: flex;
+              gap: 24px;
+              font: var(--font-14);
+
+              li {
+                color: var(--bg-techs);
+              }
             }
           }
         }
