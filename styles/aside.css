@@ -35,3 +35,22 @@
     }
   }
 }
+
+.technologies {
+  h2 {
+    font: var(--h2);
+  }
+
+  ul {
+    text-align: center;
+
+    li {
+      border-radius: 30px;
+      background-color: var(--bg-techs);
+      color: var(--body-bg-color);
+      font: var(--h4);
+      text-transform: uppercase;
+      padding: 6px;
+    }
+  }
+}

@@ -10,8 +10,16 @@
   grid-template-columns: 350px 950fr;
 }
 
-.gap-10{
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-10 {
   gap: 10px;
+}
+
+.gap-16 {
+  gap: 16px;
 }
 
 .gap-20 {
